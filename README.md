@@ -3,7 +3,7 @@ Some insecure people explores the science of security.
 
 # LOGS:
 
-- MEET-1:$11^{th} \text{July} 2026$
+- MEET-1: $11^{th} \text{July } 2026$
     - Opening Note
     - Introduction of participants
     - Discussion on various parallels for the group
