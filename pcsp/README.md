@@ -1,5 +1,7 @@
 # PCSP — Poly-Cipher Socket Protocol
 
+UDPATE CHANGELOGS AND SELF_ASSIGN docs in pcsp/doc/ WHEN YOU WORK
+
 Scaffolding only. Every header declares the exact contracts from the SRS /
 API doc; every `.cpp` is a stub with a `TODO(REQ-...)` marking what to fill
 in. The project builds and links out of the box (identity-transform
