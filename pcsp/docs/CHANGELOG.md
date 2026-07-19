@@ -1,6 +1,8 @@
 # DOCUMENT ALL CHANGES MADE MY INDIVIDUALS FOR IMPLEMENTED CODE:
 
+Update in the following format:
+``` 
 <REQ_ID> <YOUR NAME> <WHAT YOU HAVE CHANGED> <PR>
-<DETAILS>
+<DETAILS>``` 
 
 ------
