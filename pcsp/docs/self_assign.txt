@@ -1,9 +1,22 @@
-Self Assign Requirements:
+                                Self Assign Requirements
+                                ------------------------
 
 Populate this document in the format:
-<REQ_ID> <YOUR NAME> <DATE>
-<DETAILS>
+
+- <REQ_ID> <YOUR NAME> <DATE>
+<DETAILS (if any)>
 
 
------------------
+                            --------------------------------
 
+
+
+                            SELF ASSIGNMENT: Ronit_Choudhury
+                            ---------------------------------
+
+- REQ-PRT-201 (HEADER ANATOMY)                  <nonQualities/Ronit_Choudhury>: 20/07/26
+- REQ-PRT-203 (SERVER_PARSER_STATE_MACHINE)     <nonQualities/Ronit_Choudhury>: 20/07/26
+- REQ-CIP-402,REQ-CIP-503, REQ-CIP-702          <nonQualities/Ronit_Choudhury>: 20/07/26
+
+
+                            -----------------------------------
