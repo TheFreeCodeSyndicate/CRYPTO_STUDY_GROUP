@@ -1,6 +1,8 @@
 # CRYPTO_STUDY_GROUP
 Some insecure people explores the science of security. 
 
+# FOR MICRO_PROJECT LOOK INTO `/pcsp/` AND FOLLOW AS PER STANDARD PROCEDURE 
+
 # LOGS:
 
 - MEET-1: $11^{th} \text{July } 2026$
