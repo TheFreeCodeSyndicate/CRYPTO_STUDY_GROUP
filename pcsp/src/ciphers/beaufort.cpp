@@ -1,5 +1,5 @@
 #include "pcsp/ciphers/beaufort.hpp"
-
+#include <cctype>
 // @ved: copied from vigenere code
 // ref used: https://uomustansiriyah.edu.iq/media/lectures/5/5_2023_11_13!11_35_06_PM.pdf
 // ascii only
