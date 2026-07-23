@@ -10,7 +10,7 @@ std::vector<uint8_t> AffineCipher::encrypt(
 
     std::vector<uint8_t>ciphertext;
     if (key.size() != 2 || std::gcd(key[0], 26) != 1) {
-       std::cerr << "AffineCipher::encrypt: key must be 2 bytes (a, b) and a must be coprime to 256" << std::endl;
+       std::cerr << "AffineCipher::encrypt: key must be 2 bytes (a, b) and a must be coprime to 26" << std::endl;
        return {};
     }
     ciphertext.reserve(plaintext.size());
@@ -36,7 +36,7 @@ std::vector<uint8_t> AffineCipher::decrypt(
         }
      }
      if (key.size() != 2 || std::gcd(key[0], 26) != 1) {
-       std::cerr << "AffineCipher::encrypt: key must be 2 bytes (a, b) and a must be coprime to 256" << std::endl;
+       std::cerr << "AffineCipher::decrypt: key must be 2 bytes (a, b) and a must be coprime to 26" << std::endl;
        return {};
     }
     std::vector<uint8_t>plaintext;
