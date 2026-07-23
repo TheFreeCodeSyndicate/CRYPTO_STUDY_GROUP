@@ -1,8 +1,7 @@
-# DOCUMENT ALL CHANGES MADE MY INDIVIDUALS FOR IMPLEMENTED CODE:
+# DOCUMENT CHANGES MADE BY INDIVIDUALS FOR IMPLEMENTED CODE:
 
-Update in the following format:
-``` 
-<REQ_ID> <YOUR NAME> <WHAT YOU HAVE CHANGED> <PR>
-<DETAILS>``` 
+Details regarding implementation and changes of certain parts of the code. Incomplete, Todo, better implementation expectation can be also logged. 
 
-------
+### REQ-CIP-402 : nonQualities/Ronit_Choudhury:
+  -  All test cases handled except non-alphabatic keys.
+  -  Needs better error handling.
