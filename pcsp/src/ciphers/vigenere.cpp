@@ -19,7 +19,7 @@ uint8_t P(uint8_t C, uint16_t K) {
     return (C_norm - K_norm + 26) % 26;
 }
 
-// TODO(REQ-CIP-501): implement VigenereCipher::encrypt
+// DONE(REQ-CIP-501): implement VigenereCipher::encrypt
 // Key field format: Variable -- ASCII string
 std::vector<uint8_t> VigenereCipher::encrypt(
     const std::vector<uint8_t>& plaintext,
@@ -46,10 +46,10 @@ std::vector<uint8_t> VigenereCipher::encrypt(
         key_index = (key_index + 1) % key.size();
     }
 
-    return ciphertext; // placeholder identity transform -- replace with real math
+    return ciphertext; 
 }
 
-// TODO(REQ-CIP-501): implement VigenereCipher::decrypt
+// DONE(REQ-CIP-501): implement VigenereCipher::decrypt
 std::vector<uint8_t> VigenereCipher::decrypt(
     const std::vector<uint8_t>& ciphertext,
     const std::vector<uint8_t>& key) const
@@ -74,5 +74,5 @@ std::vector<uint8_t> VigenereCipher::decrypt(
         key_index = (key_index + 1) % key.size();
     }
 
-    return plaintext; // placeholder identity transform -- replace with real math
+    return plaintext;
 }
