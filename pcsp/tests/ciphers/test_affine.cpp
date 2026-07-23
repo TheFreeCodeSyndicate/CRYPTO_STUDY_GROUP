@@ -13,9 +13,11 @@ int g_expected_failures = 0;
 
 void check(bool condition, const std::string& test_name) {
     if (condition) {
-        std::cout << "[PASS] " << test_name << std::endl;
+        printf("\033[32m [PASS] \033[0m");
+        std::cout << test_name << std::endl;
     } else {
-        std::cout << "[FAIL] " << test_name << std::endl;
+        printf("\033[31m [FAIL] \033[0m");
+        std::cout << test_name << std::endl;
         ++g_failures;
     }
 }

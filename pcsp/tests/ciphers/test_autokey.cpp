@@ -3,10 +3,9 @@
 #include <iostream>
 #include <string>
 #include <vector>
+#include <cstdlib> 
 
-// Lightweight, dependency-free test harness. If your project already uses
-// GoogleTest / Catch2 / doctest, swap the check() calls for that framework's
-// assertions -- the test bodies below don't need to change.
+
 namespace {
 
 int g_failures = 0;
@@ -16,9 +15,11 @@ void check(bool condition, const std::string& description) {
     ++g_checks;
     if (!condition) {
         ++g_failures;
-        std::cout << "  [FAIL] " << description << "\n";
+        printf("\033[31m [FAIL] \033[0m");  
+        std::cout << description << "\n";
     } else {
-        std::cout << "  [ OK ] " << description << "\n";
+        printf("\033[32m [OK] \033[0m");
+        std::cout << description << "\n";
     }
 }
 
@@ -35,7 +36,7 @@ std::string to_letters(const std::vector<uint8_t>& codes) {
     return out;
 }
 
-}  // namespace
+}  
 
 void test_empty_inputs() {
     std::cout << "test_empty_inputs\n";
@@ -85,9 +86,6 @@ void test_key_advances_by_position() {
     std::cout << "test_key_advances_by_position\n";
     AutokeyCipher cipher;
 
-    // Repeating the same plaintext letter under a multi-byte key should
-    // produce *different* ciphertext letters as the key advances -- that's
-    // the entire point of a polyalphabetic (Vigenere/autokey-style) cipher.
     auto plaintext = to_codes("AAAAAA");
     auto key = to_codes("BCD");
 
