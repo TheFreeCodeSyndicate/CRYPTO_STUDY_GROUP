@@ -8,6 +8,29 @@
                    |             <DETAILS (if any)>             |
                    +____________________________________________+
 
+LIST OF ALL REQUIREMENTS: [X] : Already Taken; [-]: Unassigned
+--------------------------
+[X] REQ-NET-101: Socket Binding
+[X] REQ-NET-102: Connection Management
+[X] REQ-NET-103: Client Initiation
+[X] REQ-NET-104: Byte Ordering
+[X] REQ-PRT-201: Header Anatomy
+[-] REQ-PRT-202: Stream Assembly
+[X] REQ-PRT-203: Server Parsing State Machine
+[-] REQ-DSP-301: Client-Side Telemetry
+[-] REQ-DSP-302: Server-Side Telemetry
+[X] REQ-CIP-401: Caesar Cipher
+[X] REQ-CIP-402: Affine Cipher
+[X] REQ-CIP-403: Atbash Cipher
+[-] REQ-CIP-404: Monoalphabetic Substitution
+[X] REQ-CIP-502: Beaufort Cipher
+[X] REQ-CIP-503: Autokey Cipher
+[-] REQ-CIP-601: Playfair Cipher
+[-] REQ-CIP-602: Hill Cipher
+[X] REQ-CIP-701: Rail Fence Cipher
+[X] REQ-CIP-702: Columnar Transposition
+[-] REQ-NFR-801: Memory Constraints
+[-] REQ-NFR-802: Graceful Error Recovery
 
 
 
