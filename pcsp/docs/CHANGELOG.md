@@ -5,3 +5,11 @@ Details regarding implementation and changes of certain parts of the code. Incom
 ### REQ-CIP-402 : nonQualities/Ronit_Choudhury:
   -  All test cases handled except non-alphabatic keys.
   -  Needs better error handling.
+
+### REQ-CIP-501 : vedbd/Ved_Bhandary
+  - All test cases handled except `encrypt_rejects_non_alpha_key`.
+  - Error handling is still an issue. 
+
+### REQ-CIP-502 : vedbd/Ved_Bhandary
+  - All test cases handled.
+  - IDEA: Central logger of sorts?
