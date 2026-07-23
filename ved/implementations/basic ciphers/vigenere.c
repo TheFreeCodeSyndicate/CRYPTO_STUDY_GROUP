@@ -2,11 +2,15 @@
 #include <string.h>
 #include <ctype.h>
 
+/*
+ref: 
+    - https://pages.mtu.edu/~shene/NSF-4/Tutorial/VIG/Vig-Algebraic.html
+*/
 
 // important: 'A' + (j + i % 26) % 26
 
 char get_encrypted_letter(int pl_index, int kl_index) {
-    // printf("pl_index: %d\tkl_index: %d\n", pl_index, kl_index);
+    // used to be a debug statement here.
     return 'A' + (kl_index + pl_index % 26) % 26;
 }
 
