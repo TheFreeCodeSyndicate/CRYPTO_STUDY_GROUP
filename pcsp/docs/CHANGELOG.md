@@ -32,3 +32,4 @@ Details regarding implementation and changes of certain parts of the code. Incom
 ### REQ-PRT-203: Ronit_Choudhury
 - Parser implemented with AI
 - Will do a redundancy check soon
+  
