@@ -42,7 +42,7 @@ void run_iterative_loop(int server_fd){
         if (client_fd < 0){
             continue;
         }
-        parse_incoming_stream(client_fd);
+        (void)parse_incoming_stream(client_fd);
         close(client_fd);
     } 
 }
