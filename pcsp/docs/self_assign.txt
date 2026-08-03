@@ -15,10 +15,10 @@ LIST OF ALL REQUIREMENTS: [X] : Already Taken; [-]: Unassigned
 [X] REQ-NET-103: Client Initiation
 [X] REQ-NET-104: Byte Ordering
 [X] REQ-PRT-201: Header Anatomy
-[-] REQ-PRT-202: Stream Assembly
+[X] REQ-PRT-202: Stream Assembly
 [X] REQ-PRT-203: Server Parsing State Machine
 [X] REQ-DSP-301: Client-Side Telemetry
-[-] REQ-DSP-302: Server-Side Telemetry
+[X] REQ-DSP-302: Server-Side Telemetry
 [X] REQ-CIP-401: Caesar Cipher
 [X] REQ-CIP-402: Affine Cipher
 [X] REQ-CIP-403: Atbash Cipher
@@ -40,6 +40,8 @@ LIST OF ALL REQUIREMENTS: [X] : Already Taken; [-]: Unassigned
 - REQ-PRT-201 (HEADER ANATOMY)                        <nonQualities/Ronit_Choudhury>: 20/07/26
 - REQ-PRT-203 (SERVER_PARSER_STATE_MACHINE)           <nonQualities/Ronit_Choudhury>: 20/07/26
 - REQ-CIP-402,REQ-CIP-503, REQ-CIP-702                <nonQualities/Ronit_Choudhury>: 20/07/26
+-  REQ-DSP-302: Server-Side Telemetry                 <nonQualities/Ronit_Choudhury>:03/07/26
+- REQ-PRT-202: Stream Assembly                        <nonQualities/Ronit_Choudhury:03/07/26
 
 
                             SELF ASSIGNMENT : VED BHANDARY
